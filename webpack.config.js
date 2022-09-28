@@ -19,7 +19,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Template with Tests',
+      title: 'power_plant',
       template: './src/index.html',
       inject: 'body'
     })
